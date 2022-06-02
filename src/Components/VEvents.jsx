@@ -24,6 +24,7 @@ export default function VEvents() {
       <button onClick={() => shoot("Missed")}>Take Another the shot!</button>
       {/* Sending the event object manually */}
       <button onClick={(event) => shoot("Goal!", event)}>Take the shot!</button>
+      <br/>
     </>
   );
 }

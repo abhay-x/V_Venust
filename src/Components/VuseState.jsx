@@ -32,6 +32,7 @@ export default function VuseState() {
 
       <MultipleHooks />
       <SingleHooksObj />
+      <br />
     </>
   );
 }
